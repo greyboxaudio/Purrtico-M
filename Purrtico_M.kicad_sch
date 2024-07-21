@@ -2545,6 +2545,12 @@
 		(uuid "9174c87d-3ccd-4017-bc6b-ef832ac3ae8c")
 	)
 	(junction
+		(at 186.69 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96a12633-d7c7-4eb2-b819-cd6d353aee02")
+	)
+	(junction
 		(at 264.16 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2593,12 +2599,6 @@
 		(uuid "a53f687b-5097-44b0-b5d2-7f792a3c7c06")
 	)
 	(junction
-		(at 369.57 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6a3f775-ac69-4de6-8a99-73e36721335e")
-	)
-	(junction
 		(at 328.93 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2609,12 +2609,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb40f64c-e78c-4dfb-addf-547a4b7a4c37")
-	)
-	(junction
-		(at 186.69 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbe7647d-8d38-4fd7-a830-12cff55017e1")
 	)
 	(junction
 		(at 196.85 259.08)
@@ -2633,6 +2627,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdafd203-8b23-411b-8ff3-5b05fd6b90de")
+	)
+	(junction
+		(at 369.57 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfa1e71f-927c-486b-a081-a69ebc4d95f6")
 	)
 	(junction
 		(at 196.85 138.43)
@@ -7711,7 +7711,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1679")
-		(at 179.07 62.23 0)
+		(at 336.55 148.59 0)
 		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
@@ -7720,7 +7720,7 @@
 		(dnp no)
 		(uuid "2cdb6de7-9766-4acb-a017-0a2c419a1139")
 		(property "Reference" "U2"
-			(at 179.07 72.39 0)
+			(at 336.55 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7728,7 +7728,7 @@
 			)
 		)
 		(property "Value" "OPA1679"
-			(at 179.07 69.85 0)
+			(at 336.55 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7736,7 +7736,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 177.8 64.77 0)
+			(at 335.28 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7745,7 +7745,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 180.34 67.31 0)
+			(at 337.82 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7754,7 +7754,7 @@
 			)
 		)
 		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
-			(at 179.07 62.23 0)
+			(at 336.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7883,7 +7883,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1679")
-		(at 377.19 156.21 0)
+		(at 179.07 62.23 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7892,7 +7892,7 @@
 		(dnp no)
 		(uuid "320595f3-5977-4821-b4b1-f7665978cbdf")
 		(property "Reference" "U2"
-			(at 377.19 166.37 0)
+			(at 179.07 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7900,7 +7900,7 @@
 			)
 		)
 		(property "Value" "OPA1679"
-			(at 377.19 163.83 0)
+			(at 179.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,7 +7908,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 375.92 158.75 0)
+			(at 177.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7917,7 +7917,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 378.46 161.29 0)
+			(at 180.34 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7926,7 +7926,7 @@
 			)
 		)
 		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
-			(at 377.19 156.21 0)
+			(at 179.07 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9223,7 +9223,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1679")
-		(at 90.17 121.92 0)
+		(at 138.43 130.81 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9232,7 +9232,7 @@
 		(dnp no)
 		(uuid "529741ae-f91c-4e81-a8bb-9387c2ed5448")
 		(property "Reference" "U3"
-			(at 90.17 128.778 0)
+			(at 138.43 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9240,7 +9240,7 @@
 			)
 		)
 		(property "Value" "OPA1679"
-			(at 90.17 131.318 0)
+			(at 138.43 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9248,7 +9248,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 88.9 124.46 0)
+			(at 137.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9257,7 +9257,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 91.44 127 0)
+			(at 139.7 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9266,7 +9266,7 @@
 			)
 		)
 		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
-			(at 90.17 121.92 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10351,8 +10351,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1679")
-		(at 138.43 130.81 0)
-		(mirror x)
+		(at 299.72 231.14 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10360,7 +10359,7 @@
 		(dnp no)
 		(uuid "6f48b6ed-ed2a-47a5-bad1-f771692c4ed6")
 		(property "Reference" "U3"
-			(at 138.43 137.668 0)
+			(at 299.72 224.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10368,7 +10367,7 @@
 			)
 		)
 		(property "Value" "OPA1679"
-			(at 138.43 140.208 0)
+			(at 299.72 221.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10376,7 +10375,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 137.16 133.35 0)
+			(at 298.45 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10385,7 +10384,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 139.7 135.89 0)
+			(at 300.99 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10394,7 +10393,7 @@
 			)
 		)
 		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
-			(at 138.43 130.81 0)
+			(at 299.72 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11391,7 +11390,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1679")
-		(at 336.55 148.59 0)
+		(at 377.19 156.21 0)
 		(mirror x)
 		(unit 4)
 		(exclude_from_sim no)
@@ -11400,7 +11399,7 @@
 		(dnp no)
 		(uuid "89b9d3d3-c3c5-40d8-8130-838826fb7290")
 		(property "Reference" "U2"
-			(at 336.55 158.75 0)
+			(at 377.19 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11408,7 +11407,7 @@
 			)
 		)
 		(property "Value" "OPA1679"
-			(at 336.55 156.21 0)
+			(at 377.19 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11416,7 +11415,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 335.28 151.13 0)
+			(at 375.92 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11425,7 +11424,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 337.82 153.67 0)
+			(at 378.46 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11434,7 +11433,7 @@
 			)
 		)
 		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
-			(at 336.55 148.59 0)
+			(at 377.19 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14433,7 +14432,8 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1679")
-		(at 299.72 231.14 0)
+		(at 90.17 121.92 0)
+		(mirror x)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14441,7 +14441,7 @@
 		(dnp no)
 		(uuid "cb79ac5e-7306-4e47-996a-e9621abedfa2")
 		(property "Reference" "U3"
-			(at 299.72 220.98 0)
+			(at 90.17 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14449,7 +14449,7 @@
 			)
 		)
 		(property "Value" "OPA1679"
-			(at 299.72 223.52 0)
+			(at 90.17 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14457,7 +14457,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 298.45 228.6 0)
+			(at 88.9 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14466,7 +14466,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 300.99 226.06 0)
+			(at 91.44 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14475,7 +14475,7 @@
 			)
 		)
 		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
-			(at 299.72 231.14 0)
+			(at 90.17 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
