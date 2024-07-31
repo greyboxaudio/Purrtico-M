@@ -6,3 +6,8 @@ Purrtico_M_v2.kicad_pro
 /Gerber
 greyboxaudio_purrticoM_gerber-drill-map.zip
 Purrtico_M.csv
+Simulation/purrtico_m.log
+Simulation/purrtico_m.op.raw
+Simulation/purrtico_m.raw
+Simulation/purrtico_m.zip
+Purrtico_M_HF-only.kicad_sch
