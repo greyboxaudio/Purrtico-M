@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Purrtico M")
-		(date "2024-08-02")
+		(date "2024-08-03")
 		(rev "01")
 		(company "Greybox Audio")
 	)
@@ -6640,16 +6640,6 @@
 		)
 		(uuid f8b39b24-6704-400e-bd12-1b15253f27f4)
 	)
-	(text "100R for HF"
-		(exclude_from_sim no)
-		(at 153.67 122.682 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "136dc6f0-3c76-4bc6-9fac-2dbf6d15fab3")
-	)
 	(text "5n6 for HMF"
 		(exclude_from_sim no)
 		(at 377.19 149.86 0)
@@ -6679,16 +6669,6 @@
 			)
 		)
 		(uuid "6b2d059c-af01-41e6-9ed9-7dcd0c3a66e1")
-	)
-	(text "100R\nfor HF"
-		(exclude_from_sim no)
-		(at 107.696 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "721f157c-5595-4430-9bfb-7df89052a9b1")
 	)
 	(text "1k5\nfor HF"
 		(exclude_from_sim no)
@@ -7223,7 +7203,7 @@
 				)
 			)
 		)
-		(property "Value" "68n"
+		(property "Value" "100n"
 			(at 135.89 104.14 90)
 			(effects
 				(font
@@ -8716,7 +8696,7 @@
 				)
 			)
 		)
-		(property "Value" "680n"
+		(property "Value" "1u"
 			(at 59.69 139.7 0)
 			(effects
 				(font
@@ -11879,7 +11859,7 @@
 				)
 			)
 		)
-		(property "Value" "3k9"
+		(property "Value" "100R"
 			(at 107.95 118.11 90)
 			(effects
 				(font
@@ -12873,7 +12853,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "1k"
 			(at 49.53 120.65 90)
 			(effects
 				(font
@@ -17086,7 +17066,7 @@
 				)
 			)
 		)
-		(property "Value" "3k9"
+		(property "Value" "100R"
 			(at 152.4 127 90)
 			(effects
 				(font
