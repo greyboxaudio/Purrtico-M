@@ -6529,7 +6529,7 @@
 		(stroke
 			(width 0.254)
 			(type solid)
-			(color 0 194 194 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -6581,7 +6581,7 @@
 		(stroke
 			(width 0.254)
 			(type solid)
-			(color 0 194 194 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -6594,7 +6594,7 @@
 		(stroke
 			(width 0.254)
 			(type solid)
-			(color 0 194 194 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -6607,7 +6607,7 @@
 		(stroke
 			(width 0.254)
 			(type solid)
-			(color 0 194 194 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -6620,7 +6620,7 @@
 		(stroke
 			(width 0.254)
 			(type solid)
-			(color 0 194 194 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -6650,7 +6650,7 @@
 		)
 		(uuid "1472d1b4-75e1-430c-a0eb-0d5484f63615")
 	)
-	(text "1k for HF"
+	(text "470R for HF"
 		(exclude_from_sim no)
 		(at 162.814 147.32 0)
 		(effects
@@ -6670,7 +6670,7 @@
 		)
 		(uuid "6b2d059c-af01-41e6-9ed9-7dcd0c3a66e1")
 	)
-	(text "1k5\nfor HF"
+	(text "620R\nfor HF"
 		(exclude_from_sim no)
 		(at 94.742 118.11 0)
 		(effects
@@ -8184,7 +8184,7 @@
 				)
 			)
 		)
-		(property "Value" "4n7"
+		(property "Value" "2n2"
 			(at 180.34 109.22 90)
 			(effects
 				(font
@@ -11121,7 +11121,7 @@
 				)
 			)
 		)
-		(property "Value" "470p"
+		(property "Value" "220p"
 			(at 135.89 116.84 90)
 			(effects
 				(font
@@ -15300,7 +15300,7 @@
 				)
 			)
 		)
-		(property "Value" "68n"
+		(property "Value" "22n"
 			(at 90.17 86.36 90)
 			(effects
 				(font
