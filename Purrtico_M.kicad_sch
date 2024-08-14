@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Purrtico M")
-		(date "2024-08-06")
+		(date "2024-08-14")
 		(rev "01")
 		(company "Greybox Audio")
 	)
@@ -6891,7 +6891,7 @@
 		)
 		(uuid "23cdc921-2693-415d-87e1-f2f99b8962e7")
 	)
-	(text "Input Gain Control, consists of 2 stages.\nFirst stage:\nR27 = 2k\nRV5 = 5k log\nR39 = (omit)\nR33 = 2k\n\nSecond Stage:\nR27 = 4k7\nRV5 = (omit)\nR39 = 0R\nR33 = 4k7"
+	(text "Input Gain Control, consists of 2 stages.\nFirst stage:\nR27 = 2k\nRV5 = 5k log\nR24,R39 = (omit)\nR33 = 2k\n\nSecond Stage:\nR27 = 4k7\nRV5 = (omit)\nR24,R39 = 0R\nR33 = 4k7"
 		(exclude_from_sim no)
 		(at 212.852 210.058 0)
 		(effects
@@ -9745,6 +9745,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 149.86 215.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3950235c-d6f8-4351-96de-230425d52034")
+		(property "Reference" "R35"
+			(at 152.4 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 152.4 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 151.638 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 149.86 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1e20d8d-94b8-4b33-a91f-af1b06667626")
+		)
+		(pin "1"
+			(uuid "94a62330-e078-46c3-af1a-363c852908a6")
+		)
+		(instances
+			(project "Purrtico_M"
+				(path "/a0898129-0e9a-4d09-a24b-7ec1243d6ca2"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 177.8 44.45 90)
 		(unit 1)
@@ -12023,6 +12093,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 168.91 215.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67b71ecc-cfbb-4b3f-8ad2-023dca32d542")
+		(property "Reference" "R37"
+			(at 171.45 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 171.45 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 170.688 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "00ad744a-e96a-4cb4-9029-e9e8639f6118")
+		)
+		(pin "1"
+			(uuid "970f5618-7e6b-4243-89bc-7004096f8903")
+		)
+		(instances
+			(project "Purrtico_M"
+				(path "/a0898129-0e9a-4d09-a24b-7ec1243d6ca2"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 337.82 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12360,7 +12500,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 149.86 212.09 0)
+		(at 149.86 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12369,7 +12509,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d11f272-05db-4934-b5b8-d3cbbba3a8a6")
 		(property "Reference" "#PWR011"
-			(at 149.86 218.44 0)
+			(at 149.86 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12378,7 +12518,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 217.17 0)
+			(at 149.86 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12386,7 +12526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 212.09 0)
+			(at 149.86 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12395,7 +12535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 212.09 0)
+			(at 149.86 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12404,7 +12544,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 212.09 0)
+			(at 149.86 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17567,7 +17707,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 168.91 212.09 0)
+		(at 168.91 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17576,7 +17716,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3ed2679-d87a-4fbd-af55-fe7195dfe657")
 		(property "Reference" "#PWR012"
-			(at 168.91 218.44 0)
+			(at 168.91 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17585,7 +17725,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 217.17 0)
+			(at 168.91 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17593,7 +17733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 212.09 0)
+			(at 168.91 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17602,7 +17742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 212.09 0)
+			(at 168.91 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17611,7 +17751,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 212.09 0)
+			(at 168.91 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
