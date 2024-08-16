@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Purrtico M")
-		(date "2024-08-15")
+		(date "2024-08-16")
 		(rev "01")
 		(company "Greybox Audio")
 	)
@@ -7019,8 +7019,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 240.03 180.34 90)
-		(mirror x)
+		(at 240.03 180.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)

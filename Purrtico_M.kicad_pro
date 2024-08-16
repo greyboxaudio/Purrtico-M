@@ -486,7 +486,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerber/",
+      "plot": "FabricationOutputs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
