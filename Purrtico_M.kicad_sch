@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Purrtico M")
-		(date "2024-08-16")
+		(date "2025-01-19")
 		(rev "01")
 		(company "Greybox Audio")
 	)
@@ -6891,7 +6891,17 @@
 		)
 		(uuid "23cdc921-2693-415d-87e1-f2f99b8962e7")
 	)
-	(text "Input Gain Control, consists of 2 stages.\nFirst stage:\nR27 = 2k\nRV5 = 5k log\nR24,R39 = (omit)\nR33 = 2k\n\nSecond Stage:\nR27 = 4k7\nRV5 = (omit)\nR24,R39 = 0R\nR33 = 4k7"
+	(text "Important!\nOnly connect a single mounting hole to ground and omit the other 0R resistor!"
+		(exclude_from_sim no)
+		(at 159.004 228.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4b56f98d-5079-4098-b74a-3e215112880d")
+	)
+	(text "Input Gain Control, consists of 2 stages.\nFirst stage:\nR27,R33 = 2k\nRV5 = 5k log\nR24,R39 = (omit)\n\nSecond Stage:\nR27,R33 = 4k7\nRV5 = (omit)\nR24,R39 = 0R"
 		(exclude_from_sim no)
 		(at 212.852 210.058 0)
 		(effects
@@ -6921,7 +6931,7 @@
 		)
 		(uuid "8d8c407f-0cdd-4a35-92e3-6545c5222059")
 	)
-	(text "Orange\npopulate for Low Shelf / leave empty for High Shelf"
+	(text "Orange\npopulate for Low Shelf / omit for High Shelf"
 		(exclude_from_sim no)
 		(at 138.176 84.328 0)
 		(effects
@@ -6941,7 +6951,7 @@
 		)
 		(uuid "9f20524b-46f7-41a8-a9a4-7eb8c907e7e7")
 	)
-	(text "Blue\npopulate for High Shelf / leave empty for Low Shelf"
+	(text "Blue\npopulate for High Shelf / omit for Low Shelf"
 		(exclude_from_sim no)
 		(at 137.668 89.154 0)
 		(effects
