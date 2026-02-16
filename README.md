@@ -1,3 +1,3 @@
 # Purrtico-M
  
-The high/low shelf does not seem to function currently. Mid band still needs some tweaking.
+Based on the AMEK MZ-15-RN Equalizer
